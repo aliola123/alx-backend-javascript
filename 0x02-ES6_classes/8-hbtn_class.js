@@ -8,16 +8,16 @@ export default class HolbertonClass {
     return this._size;
   }
 
-  set size(val) {
-    this._size = val;
+  set size(value) {
+    this._size = value;
   }
 
   get location() {
     return this._location;
   }
 
-  set location(val) {
-    this._location = val;
+  set location(value) {
+    this._location = value;
   }
 
   [Symbol.toPrimitive](hint) {

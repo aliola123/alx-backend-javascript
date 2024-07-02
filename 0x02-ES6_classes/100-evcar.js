@@ -10,8 +10,8 @@ export default class EVCar extends Car {
     return this._range;
   }
 
-  set range(val) {
-    this._range = val;
+  set range(value) {
+    this._range = value;
   }
 
   cloneCar() {

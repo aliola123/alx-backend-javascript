@@ -1,5 +1,5 @@
 /**
- * Javascript Class
+ * Represents a class room.
  */
 export default class ClassRoom {
   /**

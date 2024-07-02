@@ -9,16 +9,16 @@ export default class Car {
     return this._brand;
   }
 
-  set brand(val) {
-    this._brand = val;
+  set brand(value) {
+    this._brand = value;
   }
 
   get motor() {
     return this._motor;
   }
 
-  set motor(val) {
-    this._motor = val;
+  set motor(value) {
+    this._motor = value;
   }
 
   get color() {
